@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+body{
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(206, 252, 246);
+}
+.flex{
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.flex .second{
+  margin-left: 5px;
+} 
+.flex .third ul{
+  text-decoration: none;
+}
+.flex .third ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 22px;
+
+}
+.flex .third ul li a{
+  text-decoration: none;
+}
+.flex .third ul li a:hover{
+  color: black;
+  text-decoration: underline;
+}
+.nav{
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  font-size: 19px;
+}
+.nav img{
+  position: relative;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+.main{
+  margin-top: 15px;
+  width: 100%;
+  height: 600px;
+  background-image: url(about-plan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.main nav{
+  position: absolute;
+  margin-left: 15%;
+  top: 30%;
+}
+.main h1{
+  font-size: 40px;
+}
+.main p{
+  font-size: 25px;
+}
+.main nav #one{
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+  padding: 3px;
+  border: none;
+  background-color: rgb(150, 72, 223);
+}.main nav #two{
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+}
+.main nav button :hover{
+  text-decoration: underline;
+}
+
+
+.flex2{
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex2 img{
+  width: 250px;
+  height: 250px;
+}
+.flex2 .asd1{
+  margin: 10px;
+  padding: 10px;
+  border-right: 1px solid black;
+  text-align: center;
+}
+.flex2 .asd1 h2{
+   margin-top:-30px;
+   
+}
+.flex2 .asd1 button{
+  color: rgb(195, 167, 221);
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+.flex2 .asd1 button:hover{
+  text-decoration: underline;
+}
+.footer{
+  margin-top: 25px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <div class="flex">
+  <div class="first"><img style="height: 40px; width: 40px;" src="microsoft.jpg"></div>
+  <div class="second"><h4>  MICROSOFT</h4></div>
+  <div class="third">
+    <ul>
+      <li><a href="#">Account</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </div>
+  </div>
+
+  <div class="nav">
+    search<img src="https://www.flaticon.com/svg/static/icons/svg/54/54481.svg">
+    cart<img src="https://previews.123rf.com/images/ricochet64/ricochet641902/ricochet64190200045/117724913-shopping-cart-symbol-illustration.jpg">
+   sign in<img src="https://image.flaticon.com/icons/png/512/40/40358.png">
+  </div>
+
+  <div class="main">
+      <nav>
+       <h1>One account for all things <br>Microsoft</h1>
+       <p>One account. One place to manage it all. Welcome<br> to your account dashboard.</p>
+      <button id="one">Sign in></button>
+      <button id="two">Create a microsoft Account></button>
+      </nav>
+  </div>
+
+
+  <div class="flex2">
+    <div class="asd1">
+    <img src="https://compass-ssl.microsoft.com/assets/3d/d6/3dd6a030-07d1-46ec-bee2-0896644dde12.svg?n=6824_AMC_SignedOut_NewToMicrosoft.svg">
+    <h2>New To Microsoft</h2>
+    <p>Get started with Microsoft products and more.</p>
+    <button>Learn More!</button>
+    </div> 
+
+    <div class="asd1">
+      <img src="https://compass-ssl.microsoft.com/assets/6f/07/6f07801a-212f-4257-90a8-36625c8f6ae9.svg?n=6824_AMC_SignedOut_Security.svg">
+      <h2>Security</h2>
+      <p>Change a password, update security<br> information, and keep vital account details <br>up-to-date.</p>
+    </div>
+
+    <div class="asd1">
+      <img src="https://compass-ssl.microsoft.com/assets/71/fe/71fea452-38ac-4918-bd34-1a5126af193d.svg?n=6824_AMC_SignedOut_Privacy.svg">
+      <h2>Privacy</h2>
+      <p>Review your search history, <br>browsing and location activity, and more.</p>
+    </div>
+
+    <div class="asd1" style="border-right:transparent">
+      <img src="https://compass-ssl.microsoft.com/assets/a9/04/a904e9c6-38fc-4237-8ae3-a109e0813e63.svg?n=6824_AMC_SignedOut_Family.svg">
+      <h2>Family</h2>
+      <p>Keep your family safer online and<br> stay connected even when you’re apart.</p>
+    </div>
+
+    <div class="asd1">
+      <img src="https://compass-ssl.microsoft.com/assets/4b/e4/4be4ca8b-75e8-479d-9008-02a47e31e406.svg?n=6824_AMC_SignedOut_PaymentsBilling.svg">
+      <h2>Payment & Billing</h2>
+      <p>Update your payment information, <br>check your order history, redeem<br> gift cards, and get billing help.</p>
+    </div>
+
+    <div class="asd1" >
+      <img src="https://compass-ssl.microsoft.com/assets/fd/fa/fdfaf57e-ef54-453b-a03f-8c734f88b487.svg?n=6824_AMC_SignedOut_Subscriptions.svg">
+      <h2>Subscription</h2>
+      <p>Quickly renew and manage your favorite<br> Microsoft subscriptions and <br>services in one place.</p>
+    </div>
+
+    <div class="asd1" >
+      <img src="https://compass-ssl.microsoft.com/assets/0a/33/0a333c70-dd9d-4568-8336-cd3608354041.svg?n=6824_AMC_SignedOut_Devices.svg">
+      <h2>Device</h2>
+      <p>Find, lock, or erase a lost or stolen <br>Windows 10 device, schedule a <br>repair, and get support.</p>
+    </div>
+
+    <div class="asd1"  style="border-right:transparent">
+      <img src="https://compass-ssl.microsoft.com/assets/5e/91/5e910350-23ab-46b3-8d58-e2b715f35fdd.svg?n=6824_AMC_SignedOut_Help.svg">
+      <h2>Help</h2>
+      <p>Get expert answers and advice<br> on Microsoft products and services.</p>
+    </div>
+
+    <div class="footer">
+      <h2>Just Sign In And Go</h2>
+      <p>Access your favorite Microsoft products and services with just one login. From Office and Windows to Xbox and Skype, one username and password connects you to the files, photos, people, and content you care about most.      </p>
+    </div>
+</body>
+</html>
